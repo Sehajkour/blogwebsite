@@ -1,0 +1,191 @@
+.l-1 {
+    background: #F88AB0;
+    filter: blur(140px);
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: absolute;
+    right: 2%;
+    top: 90px;
+}
+
+.l-2 {
+    background: #6B92E5;
+    filter: blur(150px);
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    position: absolute;
+    left: 15%;
+    top: -140px;
+}
+
+.l-3 {
+    background: rgba(107, 146, 229, 0.6);
+    filter: blur(1850px);
+    height: 1050px;
+    width: 1050px;
+    border-radius: 50%;
+    position: absolute;
+    right: -30%;
+    top: 8100px;
+    opacity: .8;
+}
+
+.l-4 {
+    background: #F88AB0;
+    filter: blur(1850px);
+    height: 750px;
+    width: 750px;
+    border-radius: 50%;
+    position: absolute;
+    right: -20%;
+    top: 6200px;
+    opacity: .7;
+}
+
+.l-5 {
+    background: #6B92E5;
+    filter: blur(200px);
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    position: absolute;
+    left: -20%;
+    top: 4850px;
+}
+
+.l-6 {
+    background: #F88AB0;
+    filter: blur(1500px);
+    height: 900px;
+    width: 900px;
+    border-radius: 50%;
+    position: absolute;
+    right: -35%;
+    top: 3700px;
+    opacity: .6;
+}
+
+.l-7 {
+    background: #6B92E5;
+    filter: blur(250px);
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    position: absolute;
+    left: -10%;
+    top: 3200px;
+}
+
+.l-8 {
+    background: #F88AB0;
+    filter: blur(2000px);
+    height: 900px;
+    width: 900px;
+    border-radius: 50%;
+    position: absolute;
+    right: -35%;
+    top: 2000px;
+    opacity: .6;
+}
+
+.l-9 {
+    background: #6B92E5;
+    filter: blur(250px);
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    position: absolute;
+    left: -10%;
+    top: 800px;
+}
+
+.l-10 {
+    background: #6B92E5;
+    filter: blur(250px);
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    position: absolute;
+    left: -10%;
+    top: 7100px;
+}
+
+.l-11 {
+    background: #F88AB0;
+    filter: blur(250px);
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    position: absolute;
+    left: -20%;
+    top: 8001px;
+}
+
+@media (max-width: 765px) {
+    .l-1 {
+        filter: blur(100px);
+        height: 150px;
+        width: 150px;
+    }
+    .l-2 {
+        filter: blur(70px);
+        height: 125px;
+        width: 125px;
+    }
+    .l-3 {
+        filter: blur(120px) !important;
+        height: 550px;
+        width: 550px;
+        top: 6400px !important;
+    }
+    .l-4 {
+        filter: blur(150px);
+        height: 350px;
+        width: 350px;
+        top: 4500px ;
+    }
+    .l-5 {
+        filter: blur(140px);
+        height: 250px;
+        width: 250px;
+        top: 3800px;
+    }
+    .l-6 {
+        filter: blur(200px);
+        height: 450px;
+        width: 450px;
+        top: 3000px;
+    }
+    .l-7 {
+        filter: blur(145px);
+        height: 220px;
+        width: 220px;
+        top: 2500px;
+    }
+    .l-8 {
+        filter: blur(250px);
+        height: 500px;
+        width: 500px;
+        top: 1500px ;
+    }
+    .l-9 {
+        filter: blur(125px);
+        height: 245px;
+        width: 245px;
+        top: 500px !important;
+    }
+    .l-10 {
+        filter: blur(125px);
+        height: 245px;
+        width: 245px;
+        top: 5400px !important;
+    }
+    .l-11 {
+        filter: blur(145px);
+        height: 245px;
+        width: 245px;
+        top: 6000px !important;
+    }
+}

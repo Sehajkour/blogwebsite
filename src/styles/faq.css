@@ -1,0 +1,48 @@
+@media (max-width: 991px) {
+    .faq-main {
+        min-height: 10dvh !important;
+    }
+    .faq-cu {
+        font-size: .8rem !important;
+    }
+    .faq-q {
+        font-size: 1.2rem !important;
+    }
+    .faq-a {
+        font-size: .8rem !important;
+    }
+}
+
+@media (max-width: 545px) {
+    .faq-title {
+        font-size: 2rem !important;
+    }
+}
+
+@media (max-width: 445px) {
+    .faq-cu {
+        font-size: .6rem !important;
+    }
+
+    .faq-q {
+        font-size: .9rem !important;
+    }
+
+    .faq-a {
+        font-size: .6rem !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .faq-t-cnt {
+        max-width: 60% !important;
+    }
+    .faq-2-cnt {
+        max-width: 40% !important;
+        padding-left: 10px;
+    }
+    .faq-cu {
+        font-size: .5rem !important;
+    }
+}
+

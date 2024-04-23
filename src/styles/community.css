@@ -1,0 +1,131 @@
+.trs-txt {
+    background: linear-gradient(180deg, rgba(116, 90, 195, 0.70) 0%, rgba(116, 90, 195, 0.00) 38.44%, rgba(248, 138, 176, 0.00) 52.76%, rgba(248, 138, 176, 0.70) 100%) !important;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    user-select: none;
+    /* Prevent text selection */
+}
+
+.cm-sc {
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cm-circle {
+    transition: .3s;
+}
+
+.cm-circle:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media (max-width: 1400px) {
+    .trs-txt {
+        font-size: 21rem !important;
+    }
+}
+
+@media (max-width: 1337px) {
+    .trs-txt {
+        font-size: 19rem !important;
+    }
+}
+
+@media (max-width: 1228px) {
+    .trs-txt {
+        font-size: 17rem !important;
+    }
+}
+
+@media (max-width: 1120px) {
+    .trs-txt {
+        font-size: 15rem !important;
+    }
+
+    .cm-circle svg {
+        width: 50px !important;
+        height: 50px !important;
+    }
+}
+
+@media (max-width: 1012px) {
+    .trs-txt {
+        font-size: 14.5rem !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .comm-main {
+       margin-bottom: 60px !important;
+    }
+    .trs-txt {
+        font-size: 15rem !important;
+    }
+    .cm-sc {
+        padding: 0 13px !important;
+    }
+}
+@media (max-width: 838px) {
+    .trs-txt {
+        font-size: 13rem !important;
+    }
+    .cm-circle {
+        padding: 20px !important;
+    }
+}
+
+@media (max-width: 730px) {
+    .trs-txt {
+        font-size: 11rem !important;
+    }
+    .cm-circle svg {
+        width: 30px !important;
+        height: 30px !important;
+    }
+}
+@media (max-width: 621px) {
+    .trs-txt {
+        font-size: 9rem !important;
+    }
+    .cm-circle {
+        padding: 15px !important;
+    }
+}
+@media (max-width: 513px) {
+    .trs-txt {
+        font-size: 8rem !important;
+    }
+    .cm-circle {
+        padding: 10px !important;
+    }
+}
+@media (max-width: 460px) {
+    .trs-txt {
+        font-size: 7rem !important;
+    }
+
+    .cm-circle {
+        border: 1px solid #3B3B3B !important;
+        padding: 10px !important;
+    }
+}
+@media (max-width: 405px) {
+    .trs-txt {
+        font-size: 6rem !important;
+    }
+    .cm-circle {
+        padding: 7px !important;
+    }
+    .cm-circle svg {
+        width: 20px !important;
+        height: 20px !important;
+    }
+}
+@media (max-width: 350px) {
+    .trs-txt {
+        font-size: 5rem !important;
+    }
+}

@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@700&family=Bebas+Neue&family=Inter:wght@400;600&family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --backgroundColor: #ecf0f3;
+}
+
+html,
+body {
+  margin: 0%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  /* z-index: -10; */
+  max-width: 100dvw;
+  height: 100%;
+  /* overflow: hidden; */
+  /* overflow-x: hidden; */
+  /* overflow-y: scroll; */
+  /* cursor: none !important; */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  background: var(--backgroundColor);
+  /* overflow: hidden; */
+}
+
+#root canvas {
+  display: block;
+  position: fixed;
+  z-index: -10;
+  top: 0;
+}
+
+.cursor-dot {
+  width: 12px;
+  height: 12px;
+  background-color: #745ac3;
+  /* box-shadow: 0px 5px 15px #745AC3; */
+}
+
+.cursor-outline {
+  width: 250px;
+  height: 250px;
+  background-color: #745ac3;
+  animation: colorChange 8s infinite;
+  filter: blur(130px);
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: #6b92e5;
+  }
+
+  25% {
+    background-color: #745ac3;
+  }
+
+  50% {
+    background-color: #f88ab0;
+  }
+
+  75% {
+    background-color: #745ac3;
+  }
+
+  100% {
+    background-color: #6b92e5;
+  }
+}
+
+.cursor-dot {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 200;
+  pointer-events: none;
+}
+
+.cursor-outline {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  /* z-index: 1; */
+  pointer-events: none;
+}
+
+.member {
+  box-shadow: -13.3826px -11.1521px 27.8803px #fafbff,
+    11.1521px 11.1521px 27.8803px #161b1d40;
+}
+
+.ph {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .pc {
+    display: none !important;
+  }
+  .ph {
+    display: block !important;
+  }
+  .cursor-dot,
+  .cursor-outline {
+    display: none !important;
+  }
+  .all-cnt {
+    padding-left: 13px !important;
+    padding-right: 13px !important;
+  }
+  .all-title {
+    font-size: 3rem !important;
+    line-height: 90% !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .all-title {
+    font-size: 2.5rem !important;
+  }
+}

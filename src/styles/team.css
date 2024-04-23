@@ -1,0 +1,81 @@
+.tm-hover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, .55);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    z-index: 10;
+    transition: .4s;
+}
+
+.tm-box:hover .tm-hover {
+    opacity: 1;
+}
+
+@media (max-width: 991px) {
+    .tm-box {
+        border-radius: 1rem !important;
+        height: 100px;
+        width: 110px;
+        box-shadow: 2.851px 2.851px 7.127px 0px rgba(22, 27, 29, 0.25), -3.421px -2.851px 7.127px 0px #FAFBFF !important;
+    }
+    .tm-box img {
+        width: 100%;
+        height: 100%;
+    }
+    .tm-n {
+        font-size: 1.2rem !important;
+    }
+    .tm-p {
+        font-size: .6rem !important;
+    }
+    .tm-txt-cnt {
+        padding: 0px !important;
+    }
+    .tm-2-txt {
+        flex-direction: column !important;
+        border-radius: 1rem !important;
+        padding: 20px 15px !important;
+        gap: 10px !important;
+        margin-top: 25px !important;
+    }
+    .tm-main {
+        min-height: 10dvh !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .tm-box {
+        border-radius: .7rem !important;
+        height: 60px;
+        width: 70px;
+    }
+
+    .tm-box img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .tm-n {
+        font-size: .8rem !important;
+    }
+
+    .tm-p {
+        font-size: .5rem !important;
+    }
+
+    .tm-txt-cnt {
+        padding: 0px !important;
+    }
+    .tm-hd {
+        font-size: .7rem !important;
+    }
+    .tm-hd-1 {
+        font-size: 1rem !important;
+    }
+    .tm-d-2 {
+        font-size: .6rem !important;
+    }
+}

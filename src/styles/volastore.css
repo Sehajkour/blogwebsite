@@ -1,0 +1,75 @@
+.prev-btn:hover {
+    background: transparent !important;
+}
+
+.prev-btn:active {
+    background: transparent !important;
+}
+
+@media (max-width: 991px)  {
+    .vola-st {
+        grid-template-columns: 1.3fr 1fr !important;
+        gap: 10px !important;
+    }
+    .vola-btns {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .vola-btn {
+        width: 50% !important;
+    }
+    .dots {
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 700px) {
+    .prs {
+        height: 180px !important;
+        width: 180px !important;
+    }
+}
+
+@media (max-width: 665px) {
+    .vola-btn {
+        width: 70% !important;
+    }
+}
+
+@media (max-width: 580px) {
+    .prs {
+        height: 150px !important;
+        width: 150px !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .vola-btn {
+        width: 100% !important;
+        font-size: .8rem !important;
+    }
+    .p-name {
+        font-size: 1.5rem !important;
+    }
+    .p-price {
+        font-size: .8rem !important;
+    }
+    .vola-p {
+        font-size: .6rem !important;
+    }
+    .v-btn {
+        font-size: .8rem !important;
+    }
+    .prs {
+        height: 120px !important;
+        width: 120px !important;
+        border-radius: .8rem !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .prs {
+        height: 100px !important;
+        width: 100px !important;
+    }
+}
